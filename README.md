@@ -15,11 +15,10 @@ The "circle FFT" (our playful name for epicycles via Discrete Fourier Transform)
 See the [original paper](https://mathed.miamioh.edu/index.php/ggbj/article/view/197) for GeoGebra details (e.g., Homer Simpson with 1000 epicycles!).
 
 ## Quick Start
-1. Clone: `git clone https://github.com/yourusername/epicycle-shape-tracer.git`
+1. Clone: `git clone https://github.com/m15-ai/epicycle-shape-tracer.git`
 2. Install deps: `pip install numpy matplotlib pillow opencv-python scipy` (in a venv).
 3. Run examples:
-   - Letters: `python m_epicycles.py` (traces 'M').
-   - Cat: Save a white-on-black PNG as `cat.png`, run `python cat.py` → `cat_epicycles.gif`.
+   - Cat: Save a white-on-black PNG as `cat.png`, run `python apicycles-cat.py` → `cat_epicycles.gif`.
 4. Customize: Edit `get_shape_points()` in scripts for new silhouettes (e.g., upload Homer PNG).
 
 Outputs: Static plots (spectrum + outline) + animated GIF (epicycles tracing). Convert GIF to MP4: `python xvert.py`.
